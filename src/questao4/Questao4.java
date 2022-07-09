@@ -24,5 +24,6 @@ public class Questao4 {
 		}while(n !=gerarNumero);
 		
 	
+		
 	}
 }
