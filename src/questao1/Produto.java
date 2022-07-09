@@ -1,6 +1,13 @@
 package questao1;
 
 public class Produto {
+<<<<<<< HEAD
+=======
+	protected String nome;
+	protected double valor=0;
+	protected String tipo;
+
+>>>>>>> 8e7e89c77ca448c76b7a6ae9dd25c4155f1f417c
 	
 	protected String nome;
 	protected double valor=0;
@@ -26,6 +33,7 @@ public class Produto {
 		return valor;
 	}
 	
+<<<<<<< HEAD
 	public void setTipo(int tipo) {
 		this.tipo = tipo;
 	}
@@ -34,4 +42,12 @@ public class Produto {
 		return tipo;
 	}
 	
+=======
+	public void setTipo(String tipo) {
+		this.tipo = tipo;
+	}
+	public String getTipo() {
+		return tipo;
+	}
+>>>>>>> 8e7e89c77ca448c76b7a6ae9dd25c4155f1f417c
 }
