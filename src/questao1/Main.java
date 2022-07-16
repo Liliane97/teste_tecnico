@@ -38,12 +38,12 @@ public static void main(String[] args) {
 	
 	
 
-	System.out.println("Banana R$: " + caixa.calculaValorFinal(banana,3));
-	System.out.println("Energético R$:" + caixa.calculaValorFinal(energetico,7));
-	System.out.println("Arroz R$: " + caixa.calculaValorFinal(arroz,1));
-	System.out.println("Chocolate R$: " + caixa.calculaValorFinal(chocolate,12));
-	System.out.println("Leite R$: " + caixa.calculaValorFinal(leite,5));
-	System.out.println("Abacaxi R$: " + caixa.calculaValorFinal(abacaxi,1));
+	System.out.println("Banana: R$ " + caixa.calculaValorFinal(banana,3));
+	System.out.println("Energético: R$" + caixa.calculaValorFinal(energetico,7));
+	System.out.println("Arroz: R$ " + caixa.calculaValorFinal(arroz,1));
+	System.out.println("Chocolate: R$ " + caixa.calculaValorFinal(chocolate,12));
+	System.out.println("Leite: R$ " + caixa.calculaValorFinal(leite,5));
+	System.out.println("Abacaxi: R$ " + caixa.calculaValorFinal(abacaxi,1));
 
 
 }
